@@ -25,6 +25,9 @@ def leer_imagen(ruta_imagen):
         
     return img
 
+img=leer_imagen('C:/Users/FILIA QUINTANA/Documents/GitHub/introduccion-a-github-y-a-vision-por-computador-IsaiQuintana/data/imagen0.png')
+img.show
+
 def obtener_info_imagen(img):
     """
     Recibe una imagen y retorna el número de canales y las dimensiones.
